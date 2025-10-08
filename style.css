@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FAF8F5;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #5A3A8C; 
+  }
+  
+  a {
+    text-decoration: none;
+    color: #5A3A8C;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5DFF5;
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    color: #5A3A8C;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #F3ECFF, #E8DFF9); /* degradado lavanda */
+  }
+  
+  .hero h1 {
+    font-size: 2.8em;
+    color: #5A3A8C;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    color: #5A3A8C;
+  }
+  
+  .btn {
+    padding: 12px 25px;
+    background-color: #5A3A8C;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .productos {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    width: 220px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    border: 1px solid #E5DFF5;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .sobre {
+    padding: 60px 30px;
+    background-color: #F9F6FB;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #777;
+    border-top: 2px solid #E5DFF5;
+  }
+  
+  .social a {
+    color: #C6A8E9;
+  }
+  
